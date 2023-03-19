@@ -1,0 +1,46 @@
+body{
+    margin-left: 100px;       
+    }
+    #labTest{
+        box-shadow: rgba(0, 0, 0, 0.995) 0px 5px 15px;;
+    }
+    #form{
+        margin-left: 40px;
+    }
+    .details{
+        display: inline-block;
+    }
+    input{
+        border: none;
+        border-bottom: 2px solid lightgray;
+        color: rgb(105, 104, 104);
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+    .form-styling{
+        width: 40%;
+        height: 50%;
+        display: inline-block;
+    }
+
+    img{
+        width:498px;
+        height:800px;
+    }
+
+    fieldset{
+        border: none;
+    }
+    button{
+        background-color: rgb(177, 88, 236);
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        height:25px;
+        margin-left: 30px;
+     }
+     #button-div{
+        
+        width: 300px;
+        margin-left: 300px;
+     }

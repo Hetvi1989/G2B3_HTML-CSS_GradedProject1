@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab Test Form</title>
+        <link rel="stylesheet" href="LabTestForm.css">
+</head>
+    <body>
+        <div id="labTest">
+        <div id="form" class="form-styling">
+            <h3>1. Your Contact Details</h3>
+            <div class="details">
+                <input type="text" title="Full Name" placeholder="Full Name" required>
+            </div>
+            <div class="details">
+                <input type="number" title="Patient Id" placeholder="Patient Id if exists" >
+            </div>
+            <div class="details">
+                <input type="number" title="Contact Number" placeholder="Contact Number" required >
+            </div>
+            <div class="details">
+                <input type="email" title="Email id" placeholder="Email id" required >
+            </div>
+            <h3>2. Address</h3>
+            <div class="details">
+                <input type="number text" title="House No" placeholder="H-No" required >
+            </div>
+            <div class="details">
+                <input type="text" title="Street" placeholder="Street" required >
+            </div>
+            <div class="details">
+                <input type="text" title="Area" placeholder="Area" required >
+            </div>
+            <div>
+            <h4>District</h4>
+            <select id="district" required>
+                <option selected>Choose an option</option>
+                <option>Banglore Urban</option>
+                <option>Banglore Rural</option>
+                <option>Ramnagar</option>
+            </select>
+            </div>
+            <h3> 3. Choose the Test Type (Check atleast one box) </h3>
+            <fieldset>
+                <label><input type="checkbox"/>CBC</label><br>
+                <label><input type="checkbox"/>Complete Urine</label><br>
+                <label><input type="checkbox"/>Lipid Profile</label><br>
+                <label><input type="checkbox"/>Thyroid Stimulating Hormone(TSH)</label><br>
+                <label><input type="checkbox"/>Glucose Test</label>
+            </fieldset>
+            <h3>4. Do you want a hard copy of the report also?</h3>
+            <fieldset>
+                <label><input type="radio" name="radioOption" />Yes</label><br>
+                <label><input type="radio" name="radioOption"/>No</label><br>
+            </fieldset>
+            <h3>5. Select Your Comfortable Date and Time</h3>
+            <input type="date" title="Date" placeholder="Date" >
+            <input type="time" title="time" placeholder="Time" ><br> <br>
+        </div>
+        <div class="form-styling"><img src=".\lab-test.jpg"></div>
+        </div>
+        <br>
+        <br>
+        <div id="button-div"> 
+            <button>Reset</button>
+            <button>Submit</button>
+        </div>
+        
+        
+    </body>
+</html>

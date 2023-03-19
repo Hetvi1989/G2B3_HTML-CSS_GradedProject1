@@ -1,0 +1,119 @@
+header{
+    background-color: rgb(59, 57, 54);
+    text-align: center;
+    color: white;
+    height: 55px;
+}
+h1{
+    padding: 5px;
+}
+#nav-styling{
+    position: sticky;
+    top: 0%;
+    z-index: 1; 
+}
+.menu-styling{
+        margin: 0%;
+        background-color: darkgray;
+    }
+.menu-styling li a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+.menu-styling li{
+        padding: 10px;
+        display: inline-block;
+    }
+.menu-styling li:hover{
+        background-color: black;
+    }
+.menu-styling li:nth-child(2):hover #dropdown-1, .menu-styling li:nth-child(3):hover #dropdown-2{
+        display: block;
+    }
+#dropdown-1, #dropdown-2{
+        position: absolute;
+        width: auto;
+        max-width: 150px;
+        display: none;
+        top: 42.5px;
+        background-color: whitesmoke;
+        padding: 0%;
+    }
+#dropdown-1 li, #dropdown-2 li{
+        display: block;
+    }
+#dropdown-1 li:hover, #dropdown-2 li:hover{
+        background-color: gainsboro;
+    }
+#dropdown-1 li a, #dropdown-2 li a{
+        color: steelblue;
+        font-size: 16px;
+    }
+footer{
+        background-color: black;
+        text-align: center;
+        color:white;
+        height: 40px;
+        padding: 1px;
+    }
+.images-animation{
+        width:auto;
+        height:400px;
+        border: 2px solid steelblue;
+        background: url("Animation/ani1.jpg");
+        animation: slider 20s infinite;
+    }
+@keyframes slider{
+       25%{
+           background: url("Animation/ani2.png");
+       }
+       50%{
+           background: url("Animation/ani3.jpg");
+       }
+       75%{
+           background: url("Animation/ani4.jpg");
+       }
+       100%{
+           background: url("Animation/ani5.jpg");
+       }
+   }
+img{
+    width:280px;
+    height: 180px;
+    margin: 10px;
+    }
+.products{
+    display: inline-block;
+    width:300px;
+    height:380px;
+    background-color:rgb(239, 239, 246)
+     }
+h3{
+    padding: 5px;
+    }
+.products > p{
+    color: blue;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 0px;
+    }
+button{
+    width:280px;
+    height:30px;
+    border-radius: 5px;
+    margin-left: 8px;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: blue;
+    background-color: rgb(219, 219, 247);
+  }
+button:hover{
+    background-color: rgb(250, 234, 230) ;
+    border-color: rgb(0, 255, 76);
+  }
+img:hover{
+    width:300px;
+    height:200px;
+  }
